@@ -1,0 +1,25 @@
+nav{ display: flex;
+}
+
+h1{
+    color: aquamarine;
+    font-weight: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: aquamarine;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
