@@ -2,3 +2,19 @@
     margin-bottom:auto;
     padding-left: 35px;
 }
+
+.Controls{
+    display: flex;
+}
+
+.Button2{
+    width: auto;
+    height: auto;
+}
+
+.Counter{
+    display: grid;
+    place-items: center;
+    margin: auto;
+    padding: auto;
+}

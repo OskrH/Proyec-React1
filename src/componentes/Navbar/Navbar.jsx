@@ -5,19 +5,19 @@ export default function Navbar() {
     
     return (
         <nav>
-            <h1>Eris Games</h1>
+            <h1>Sylphie Games</h1>
             <ul>
                 <li>
-                <a href="">Juegos PC</a>
+                <a href="">Accion</a>
                 </li>
                 <li>
-                <a href="">Juegos PS5</a>
+                <a href="">Aventura</a>
                 </li>
                 <li>
-                <a href="">Juegos NINTENDO SWITCH</a>
+                <a href="">Rol y Estrategia</a>
                 </li>
                 <li>
-                <a href="">Juegos XBOX</a>
+                <a href="">Deportes y Carreras</a>
                 </li>
             </ul>
             <Cartwidget></Cartwidget>
