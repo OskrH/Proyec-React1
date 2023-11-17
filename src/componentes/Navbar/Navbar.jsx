@@ -1,27 +1,21 @@
 import './navbar.module.css'
 import Cartwidget from "../CartWidget/Cartwidget"
-export default function Navbar() {
+import { NavLink, Link } from 'react-router-dom'
 
-    
+const Navbar =() => {
     return (
-        <nav>
-            <h1>Sylphie Games</h1>
-            <ul>
-                <li>
-                <a href="">Accion</a>
-                </li>
-                <li>
-                <a href="">Aventura</a>
-                </li>
-                <li>
-                <a href="">Rol y Estrategia</a>
-                </li>
-                <li>
-                <a href="">Deportes y Carreras</a>
-                </li>
-            </ul>
-            <Cartwidget></Cartwidget>
+        <nav className='Navbar' >
+            <Link to='/'>
+                <h3>S Games</h3>
+            </Link>
+            <div className='Categorias'>
+                <NavLink to={'/categoria/Accion'} className={({ isActive}) => isActive ? 'ActiveOption' : 'Option'}>Accion</NavLink>
+                <NavLink to={'/categoria/Aventura'} className={({ isActive}) => isActive ? 'ActiveOption' : 'Option'}>Aventura</NavLink>
+                <NavLink to={'/categoria/Rol y Estrategia'} className={({ isActive}) => isActive ? 'ActiveOption' : 'Option'}>Rol y Estrategia</NavLink>
+                <NavLink to={'/categoria/Deportes y Carreras'} className={({ isActive}) => isActive ? 'ActiveOption' : 'Option'}>Deportes y Carreras</NavLink>
+            </div>
         </nav>
     )
 }
 
+export default Navbar

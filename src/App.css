@@ -15,6 +15,24 @@
 .Counter{
     display: grid;
     place-items: center;
-    margin: auto;
-    padding: auto;
+    
+}
+
+.btn{
+    width: auto;
+}
+
+.carditem{
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-right: 100px;
+    margin-left: auto;
+}
+
+.info{
+    color: whitesmoke;
+    font-size: 15px;
+}
+
+.details{
+    display: flex;
 }
