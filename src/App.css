@@ -24,7 +24,8 @@
 
 .carditem{
     background-color: rgba(0, 0, 0, 0.1);
-    margin-right: 100px;
+    margin: 10px;
+    margin-right: 600px;
     margin-left: auto;
 }
 
@@ -42,4 +43,10 @@
     color: aquamarine;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: rgba(0, 0, 0, 0.397);
+}
+
+.Categorias{
+    display: flex;
+    align-items: center;
+    margin: auto;
 }
