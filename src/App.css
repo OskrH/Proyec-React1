@@ -50,3 +50,8 @@
     align-items: center;
     margin: auto;
 }
+
+.cartImg{
+    width: 1px;
+    height: 1px;
+}
